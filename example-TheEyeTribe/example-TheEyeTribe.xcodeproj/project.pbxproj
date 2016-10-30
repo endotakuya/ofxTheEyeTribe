@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187E5208EF323AC2F0E80861 /* ofxJSONElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CBC417B73056FCACDA239C1 /* ofxJSONElement.cpp */; };
+		5611CC9E6E43BA12DA7E75DE /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0089C8D7B051342965AC0E09 /* jsoncpp.cpp */; };
+		916BB4286F91111F6F8E538C /* ofxTheEyeTribe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48215D99C3E31B1D92FD9B4A /* ofxTheEyeTribe.cpp */; };
+		AF05D688C78E2177F30EBA34 /* ofxTCPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78A549AF1ABC0945A986C1E0 /* ofxTCPServer.cpp */; };
+		BD622EA13B4F484B74F6AB0C /* ofxUDPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8876CCC9C77ECF48D8BFCDF /* ofxUDPManager.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		F12C4149D523081E2F6C778F /* ofxTCPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46F7125CF166E73B0A0E1950 /* ofxTCPManager.cpp */; };
+		F2FEE38DE943A6C31327F72A /* ofxTCPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED3248CE6965CA4A11049CCB /* ofxTCPClient.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0089C8D7B051342965AC0E09 /* jsoncpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jsoncpp.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/src/jsoncpp.cpp; sourceTree = SOURCE_ROOT; };
+		07470EF6F08928A0041E40E8 /* ofxNetwork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxNetwork.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxNetwork.h; sourceTree = SOURCE_ROOT; };
+		1831B0CB93D144FFE067FE8E /* json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json/json.h; sourceTree = SOURCE_ROOT; };
+		2D6B58D0A2021FE3F55A4ED2 /* json-forwards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "json-forwards.h"; path = "../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json/json-forwards.h"; sourceTree = SOURCE_ROOT; };
+		46F7125CF166E73B0A0E1950 /* ofxTCPManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPManager.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPManager.cpp; sourceTree = SOURCE_ROOT; };
+		48215D99C3E31B1D92FD9B4A /* ofxTheEyeTribe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTheEyeTribe.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src/ofxTheEyeTribe.cpp; sourceTree = SOURCE_ROOT; };
+		5451B0DFC9C50CC13F4EEACE /* ofxNetworkUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxNetworkUtils.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxNetworkUtils.h; sourceTree = SOURCE_ROOT; };
+		6CBC417B73056FCACDA239C1 /* ofxJSONElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxJSONElement.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src/ofxJSONElement.cpp; sourceTree = SOURCE_ROOT; };
+		77F00A9F3772D7B16D5E374B /* ofxTheEyeTribe.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTheEyeTribe.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src/ofxTheEyeTribe.h; sourceTree = SOURCE_ROOT; };
+		78A549AF1ABC0945A986C1E0 /* ofxTCPServer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPServer.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPServer.cpp; sourceTree = SOURCE_ROOT; };
+		84C5E4EA562042640BB617B3 /* ofxJSONElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSONElement.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src/ofxJSONElement.h; sourceTree = SOURCE_ROOT; };
+		89FB7B6C9F1CD3565E412723 /* ofxJSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSON.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src/ofxJSON.h; sourceTree = SOURCE_ROOT; };
+		C674960CBD0C411201094471 /* ofxTCPManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPManager.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPManager.h; sourceTree = SOURCE_ROOT; };
+		C864BDE83FA9BEBB02A783D0 /* ofxTCPClient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPClient.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPClient.h; sourceTree = SOURCE_ROOT; };
+		CFC9C607B47846174943905B /* ofxUDPManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUDPManager.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxUDPManager.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* example-TheEyeTribeDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-TheEyeTribeDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		EA4D4227D35331C544E5C781 /* ofxTCPServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTCPServer.h; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPServer.h; sourceTree = SOURCE_ROOT; };
+		ED3248CE6965CA4A11049CCB /* ofxTCPClient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTCPClient.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxTCPClient.cpp; sourceTree = SOURCE_ROOT; };
+		F8876CCC9C77ECF48D8BFCDF /* ofxUDPManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUDPManager.cpp; path = ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src/ofxUDPManager.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD82130A22BA1B154BA0619 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B58D0A2021FE3F55A4ED2 /* json-forwards.h */,
+				1831B0CB93D144FFE067FE8E /* json.h */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		64ABCEFB0334166519197946 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				89FB7B6C9F1CD3565E412723 /* ofxJSON.h */,
+				6CBC417B73056FCACDA239C1 /* ofxJSONElement.cpp */,
+				84C5E4EA562042640BB617B3 /* ofxJSONElement.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		7050805FC20F819F5540BE9C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0089C8D7B051342965AC0E09 /* jsoncpp.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		7C14252B7F6384D313EAC312 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F87FB96EF68870AF71BBFBCC /* jsoncpp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		924315D62ECF6D2E24200F44 /* ofxNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A8D57A3DC49C3E5F9A8FE1A8 /* src */,
+			);
+			name = ofxNetwork;
+			sourceTree = "<group>";
+		};
+		9A16EA11A3AB2D552ED2FCF4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3DD82130A22BA1B154BA0619 /* json */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		A8D57A3DC49C3E5F9A8FE1A8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				07470EF6F08928A0041E40E8 /* ofxNetwork.h */,
+				5451B0DFC9C50CC13F4EEACE /* ofxNetworkUtils.h */,
+				ED3248CE6965CA4A11049CCB /* ofxTCPClient.cpp */,
+				C864BDE83FA9BEBB02A783D0 /* ofxTCPClient.h */,
+				46F7125CF166E73B0A0E1950 /* ofxTCPManager.cpp */,
+				C674960CBD0C411201094471 /* ofxTCPManager.h */,
+				78A549AF1ABC0945A986C1E0 /* ofxTCPServer.cpp */,
+				EA4D4227D35331C544E5C781 /* ofxTCPServer.h */,
+				F8876CCC9C77ECF48D8BFCDF /* ofxUDPManager.cpp */,
+				CFC9C607B47846174943905B /* ofxUDPManager.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B5D308123357E7DC5E5A2687 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				48215D99C3E31B1D92FD9B4A /* ofxTheEyeTribe.cpp */,
+				77F00A9F3772D7B16D5E374B /* ofxTheEyeTribe.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA3190C42ACD0797FAAD3C /* ofxTheEyeTribe */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C05DDCD2C84C734DDF760DC9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FA20E2BB1672F59B1372A3A8 /* ofxJSON */,
+				924315D62ECF6D2E24200F44 /* ofxNetwork */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* example-TheEyeTribeDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		EBCA3190C42ACD0797FAAD3C /* ofxTheEyeTribe */ = {
+			isa = PBXGroup;
+			children = (
+				B5D308123357E7DC5E5A2687 /* src */,
+				C05DDCD2C84C734DDF760DC9 /* libs */,
+			);
+			name = ofxTheEyeTribe;
+			sourceTree = "<group>";
+		};
+		F87FB96EF68870AF71BBFBCC /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				9A16EA11A3AB2D552ED2FCF4 /* include */,
+				7050805FC20F819F5540BE9C /* src */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		FA20E2BB1672F59B1372A3A8 /* ofxJSON */ = {
+			isa = PBXGroup;
+			children = (
+				7C14252B7F6384D313EAC312 /* libs */,
+				64ABCEFB0334166519197946 /* src */,
+			);
+			name = ofxJSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* example-TheEyeTribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-TheEyeTribe" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = "example-TheEyeTribe";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* example-TheEyeTribeDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-TheEyeTribe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* example-TheEyeTribe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				916BB4286F91111F6F8E538C /* ofxTheEyeTribe.cpp in Sources */,
+				5611CC9E6E43BA12DA7E75DE /* jsoncpp.cpp in Sources */,
+				187E5208EF323AC2F0E80861 /* ofxJSONElement.cpp in Sources */,
+				F2FEE38DE943A6C31327F72A /* ofxTCPClient.cpp in Sources */,
+				F12C4149D523081E2F6C778F /* ofxTCPManager.cpp in Sources */,
+				AF05D688C78E2177F30EBA34 /* ofxTCPServer.cpp in Sources */,
+				BD622EA13B4F484B74F6AB0C /* ofxUDPManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/docs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/docs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/docs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../dev/openframeworks/of_v0.9.3_osx_release/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/include/json,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/libs/jsoncpp/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxJSON/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/docs,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/libs/ofxNetwork/src,
+					../../../../../../dev/openframeworks/of_v0.9.3_osx_release/addons/ofxTheEyeTribe/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-TheEyeTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-TheEyeTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
